@@ -1,0 +1,12 @@
+Habilidades
+
+Durante el combate, el efecto de cada ataque puede variar.
+Primero: Algunos de tus ataques dañarán a más de un enemigo.
+Por ejemplo, al atacar a esta criatura, el ataque golpeara a otro monstruo en el area.
+Pero si atacas a este, puedes darle a los tres a la vez, usa esto para ganar ventaja.
+Segundo: Puedes golpear a los enemigos en línea hacia ti.
+Hay dos maneras de hacerlo:
+	1ra: Te permite atacar a todos los enemigos orientados en linea desde ti. Debes poner el cursor en alguno de ellos.
+	2da: te permite golpear solo a los enemigos en línea entre ti y el objetivo. Como en el ejemplo anterior las 3 criaturas estan en la misma línea, pero selecciona esta y eso es todo.
+	3ra: Usa un enemigo para establecer una línea y golpearas a los demás en ella. Aquí están alineados horizontalmente así que puedes seleccionar cualquiera.
+	4ta: La última manera te pone en el centro de la zona de ataque. No puedes usar un ataque como este si los enemigos están fuera de la zona. Pero tu ataque dará a todos los enemigos que estén dentro de la zona activa.

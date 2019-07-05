@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>menu.gif</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<!--Fireworks MX 2004 Dreamweaver MX 2004 target.  Created Sat May 21 12:42:54 GMT-0700 2005-->
+<!-- Para el menú -->
+<style type="text/css">
+.menutitle{
+cursor:pointer;
+}
+
+.submenu{
+margin-bottom: 0.5em;
+}
+
+a {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline + overline;
+}
+a:active {
+	color: #000099;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Switch Menu script- by Martial B of http://getElementById.com/
+* Modified by Dynamic Drive for format & NS4/IE4 compatibility
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+if (document.getElementById){ //DynamicDrive.com change
+document.write('<style type="text/css">\n')
+document.write('.submenu{display: none;}\n')
+document.write('</style>\n')
+}
+
+function SwitchMenu(obj){
+	if(document.getElementById){
+	var el = document.getElementById(obj);
+	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
+		if(el.style.display != "block"){ //DynamicDrive.com change
+			for (var i=0; i<ar.length; i++){
+				if (ar[i].className=="submenu") //DynamicDrive.com change
+				ar[i].style.display = "none";
+			}
+			el.style.display = "block";
+		}else{
+			el.style.display = "none";
+		}
+	}
+}
+
+</script>
+
+
+<!-- Fin Menú-->
+
+</head>
+<body bgcolor="#000000">
+<div id="masterdiv">
+<table border="0" cellpadding="0" cellspacing="0" width="150">
+<!-- fwtable fwsrc="menu.png" fwbase="menu.gif" fwstyle="Dreamweaver" fwdocid = "777583084" fwnested="0" -->
+  <tr>
+   <td><img src="images/spacer.gif" width="7" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="17" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="114" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="11" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="5"><img name="menu_r1_c1" src="images/menu_r1_c1.gif" width="150" height="23" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="23" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="menu_r2_c1" src="images/menu_r2_c1.gif" width="7" height="21" border="0" alt=""></td>
+   <td colspan="3"><div class="menutitle" onclick="SwitchMenu('sub1')"><img name="menu_r2_c2" src="images/menu_r2_c2.gif" width="142" height="21" border="0" alt=""></div></td>
+   <td><img name="menu_r2_c5" src="images/menu_r2_c5.gif" width="1" height="21" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2" style="background-image:url(images/menu_r3_c1.gif);"></td>
+   <td style="background-image:url(images/menu_r3_c3.gif);"><span class="submenu" id="sub1"><a href="personajes.html" target="main">Personajes</a><br><a href="guia/01-The_Millennial_Fair/index.html" target="main">Feria</a></span></td>
+   <td colspan="2" style="background-image:url(images/menu_r3_c4.gif);"></td>
+   <td><img src="images/spacer.gif" width="1" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="menu_r4_c1" src="images/menu_r4_c1.gif" width="7" height="21" border="0" alt=""></td>
+   <td colspan="3"><div class="menutitle" onclick="SwitchMenu('sub2')"><img name="menu_r4_c2" src="images/menu_r4_c2.gif" width="142" height="21" border="0" alt=""></div></td>
+   <td rowspan="4"><img name="menu_r4_c5" src="images/menu_r4_c5.gif" width="1" height="247" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2" style="background-image:url(images/menu_r5_c1.gif);"></td>
+   <td style="background-image:url(images/menu_r5_c3.gif);">
+   <span class="submenu" id="sub2">
+   		<a href="guia/01-The_Millennial_Fair/index.html" target="main">The Millennial Fair</a><br>
+		<a href="guia/02-The_Queen_Returns/index.html" target="main">The Queen Returns</a><br>
+		<a href="guia/03-The_Queen_is_Gone/index.html" target="main">The Queen is Gone</a><br>
+		<!--<a href="guia/04-We_re_Back/index.html" target="main">--><a href="algode/habilidades.html" target="main">We're Back</a><br>
+		<a href="guia/05-The_Trial/index.html" target="main">The Trial</a><br>
+		<a href="guia/06-Beyond_the_Ruins/index.html" target="main">Beyond the Ruins</a><br>
+		<a href="guia/07-The_Factory_Ruins/index.html" target="main">The Factory Ruins</a><br>
+		<a href="guia/08-The_End_of_Time/index.html" target="main">The End of Time</a><br>
+		<a href="guia/09-The_Village_of_Magic/index.html" target="main">The Village of Magic</a><br>
+		<a href="guia/11-The_Hero_Appears/index.html" target="main">The Hero Appears</a><br>
+		<a href="guia/12-Tata_and_the_Frog/index.html" target="main">Tata and the Frog</a><br>
+		<a href="guia/13-The_Rare_Red_Rock/index.html" target="main">The Rare Red Rock</a><br>
+		<a href="guia/14-Footsteps_Follow/index.html" target="main">Footsteps Follow!</a><br>
+		<a href="guia/15-The_Masamune/index.html" target="main">The Masamune!</a><br>
+		<a href="guia/16-Forward_to_the_Past/index.html" target="main">Forward to the Past</a><br>
+		<a href="guia/17-Unnatural_Selection/index.html" target="main">Unnatural Selection?</a><br>
+		<a href="guia/18-The_Magic_Kingdom/index.html" target="main">The Magic Kingdom</a><br>
+		<a href="guia/19-Break_the_Seal/index.html" target="main">Break the Seal!</a><br>
+		<a href="guia/20-The_Guru_on_Mt_Woe/index.html" target="main">The Guru on Mt. Woe</a><br>
+		<a href="guia/21-What_Lies_Beyond/index.html" target="main">What Lies Beyond?</a><br>
+		<a href="guia/22-Lavos_Beckons/index.html" target="main">Lavos Beckons</a><br>
+		<a href="guia/23-The New King/index.html" target="main">The New King</a><br>
+		<a href="guia/24-The Time Egg/index.html" target="main">The Time Egg</a><br>
+		<a href="guia/25-The Fated Hour/index.html" target="main">The Fated Hour</a><br>
+		<a href="guia/26-The_Final_Battle/index.html" target="main">The Final Battle</a><br>
+   </span>
+   </td>
+   <td style="background-image:url(images/menu_r5_c4.gif);"></td>
+   <td><img src="images/spacer.gif" width="1" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><img name="menu_r6_c1" src="images/menu_r6_c1.gif" width="7" height="217" border="0" alt=""></td>
+   <td colspan="3"><img name="menu_r6_c2" src="images/menu_r6_c2.gif" width="142" height="21" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="menu_r7_c2" src="images/menu_r7_c2.gif" width="142" height="196" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="196" border="0" alt=""></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

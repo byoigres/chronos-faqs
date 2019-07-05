@@ -1,0 +1,11 @@
+/* CSS Document */
+body {
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:Verdana;
+	font-size:10px;
+}
+.Content { width:600px;border:0};
+.Levels { width:600px;border-color:#FFFFFF; border-style:solid; border-width:thin; border:inherit};
+.Div{ text-decoration:blink; font-weight:bold; font-size:12px; width:600px; text-align:center};
+
